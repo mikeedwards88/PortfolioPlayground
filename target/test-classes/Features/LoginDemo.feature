@@ -8,7 +8,7 @@ Feature: Test login functionality
     And clicks on the login button
     Then user is navigated to the home page
 
-    Examples:
+   Examples:
       | username | password |
       | Michael  | 12345   |
       | Tester1  | 12345    |

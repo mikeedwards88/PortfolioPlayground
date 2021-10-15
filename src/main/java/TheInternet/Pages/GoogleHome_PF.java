@@ -1,5 +1,4 @@
 package TheInternet.Pages;
-
 import TheInternet.Tools;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;

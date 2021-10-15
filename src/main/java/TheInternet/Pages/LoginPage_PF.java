@@ -1,11 +1,11 @@
 package TheInternet.Pages;
-import org.openqa.selenium.WebDriver;
+import TheInternet.TestBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage_PF {
+public class LoginPage_PF extends TestBase {
 
     @FindBy(xpath = "//*[@id=\"name\"]")
     @CacheLookup                            //Once element found once, it will be cached (Performance)
@@ -23,13 +23,9 @@ public class LoginPage_PF {
     @CacheLookup
     WebElement error_message;
 
-    WebDriver driver;
-
-    public LoginPage_PF(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+    public LoginPage_PF() {
+        PageFactory.initElements(trialDriver, this);
     }
-
 
     public void enterUsername(String username) {
         field_username.sendKeys(username);

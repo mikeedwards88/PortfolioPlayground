@@ -1,13 +1,8 @@
 package StepDefinitions;
 import TheInternet.Pages.GoogleHome_PF;
-import TheInternet.Tools;
 import io.cucumber.java.en.*;  //Add Given, then replace with * to add all dependencies
-import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.concurrent.TimeUnit;
 
 public class GoogleSearchSteps_PF {

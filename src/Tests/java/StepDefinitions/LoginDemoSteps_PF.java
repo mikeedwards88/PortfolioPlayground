@@ -3,6 +3,7 @@ import TheInternet.Pages.HomePage_PF;
 import TheInternet.Pages.LoginPage_PF;
 import TheInternet.TestBase;
 import TheInternet.Tools;
+import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -14,14 +15,21 @@ public class LoginDemoSteps_PF extends TestBase {
     HomePage_PF home;
 
 
-   public LoginDemoSteps_PF() {
+    public LoginDemoSteps_PF() {
         this.login = new LoginPage_PF();
         this.home = new HomePage_PF();
-   }
+    }
+
+    @After public void teardown() {
+        Tools.addDelay(1500);
+        trialDriver.close();
+        trialDriver.quit();
+    }
+
 
     @Given("the browser is open")
     public void the_browser_is_open() {
-       login.initialiseDriver();
+        login.initialiseDriver();
     }
 
     @Given("user is on the login page")
@@ -53,17 +61,11 @@ public class LoginDemoSteps_PF extends TestBase {
         home.checkLogoutIsDisplayed();
         home.homePageCheck();
         Tools.addDelay(1500);
-
-       trialDriver.close();
-       trialDriver.quit();
     }
 
     @Then("user is given an invalid password message")
     public void userIsGivenAnInvalidPasswordMessage() {
         login.invalidPasswordMessage();
         Tools.addDelay(1500);
-
-       trialDriver.close();
-       trialDriver.quit();
     }
 }

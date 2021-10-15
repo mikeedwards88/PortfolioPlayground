@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="61.826">
-<testcase classname="To test Google search functionality" name="Validate Google search is working" time="10.516">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="13" time="92.163">
+<testcase classname="To test Google search functionality" name="Validate Google search is working" time="9.627">
 <system-out><![CDATA[Given browser is open.......................................................passed
 And user is on google search page...........................................passed
 When user enters Selenium in search box.....................................passed
@@ -8,7 +8,7 @@ And user hits enter.........................................................pass
 Then user is navigated to search https://www.selenium.dev...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To test Google search functionality" name="Validate Google search is working 2" time="9.818">
+<testcase classname="To test Google search functionality" name="Validate Google search is working 2" time="11.633">
 <system-out><![CDATA[Given browser is open.......................................................passed
 And user is on google search page...........................................passed
 When user enters Youtube in search box......................................passed
@@ -16,7 +16,7 @@ And user hits enter.........................................................pass
 Then user is navigated to search https://www.youtube.com....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To test Google search functionality" name="Validate Google search is working 3" time="9.143">
+<testcase classname="To test Google search functionality" name="Validate Google search is working 3" time="9.158">
 <system-out><![CDATA[Given browser is open.......................................................passed
 And user is on google search page...........................................passed
 When user enters TestProject Demo in search box.............................passed
@@ -24,7 +24,51 @@ And user hits enter.........................................................pass
 Then user is navigated to search https://example.testproject.io.............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test login functionality" name="Check login is successful with valid credentials" time="8.491">
+<testcase classname="To test the functionality of the Form on the Home Page of TestProject Demo" name="To check entering no data in the form will give every user all 5 error messages" time="6.272">
+<system-out><![CDATA[Given the browser is open...................................................passed
+And user is on the login page...............................................passed
+When user enters the Michael and 12345......................................passed
+And clicks on the login button..............................................passed
+Then user is navigated to the home page.....................................passed
+When user performs no actions on the form page..............................passed
+And user clicks on the Save button..........................................passed
+Then user will get an error message for all fields..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the functionality of the Form on the Home Page of TestProject Demo" name="To check entering no data in the form will give every user all 5 error messages 2" time="7.406">
+<system-out><![CDATA[Given the browser is open...................................................passed
+And user is on the login page...............................................passed
+When user enters the Tester1 and 12345......................................passed
+And clicks on the login button..............................................passed
+Then user is navigated to the home page.....................................passed
+When user performs no actions on the form page..............................passed
+And user clicks on the Save button..........................................passed
+Then user will get an error message for all fields..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the functionality of the Form on the Home Page of TestProject Demo" name="To check the functionality of the country field for each user" time="9.862">
+<system-out><![CDATA[Given the browser is open...................................................passed
+And user is on the login page...............................................passed
+When user enters the Michael and 12345......................................passed
+And clicks on the login button..............................................passed
+Then user is navigated to the home page.....................................passed
+When user selects Afghanistan on the form page..............................passed
+And user clicks on the Save button..........................................passed
+Then error message for country field should not be present..................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the functionality of the Form on the Home Page of TestProject Demo" name="To check the functionality of the country field for each user 2" time="8.659">
+<system-out><![CDATA[Given the browser is open...................................................passed
+And user is on the login page...............................................passed
+When user enters the Tester1 and 12345......................................passed
+And clicks on the login button..............................................passed
+Then user is navigated to the home page.....................................passed
+When user selects Albania on the form page..................................passed
+And user clicks on the Save button..........................................passed
+Then error message for country field should not be present..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test login functionality" name="Check login is successful with valid credentials" time="7.323">
 <system-out><![CDATA[Given the browser is open...................................................passed
 And user is on the login page...............................................passed
 When user enters the Michael and 12345......................................passed
@@ -32,7 +76,7 @@ And clicks on the login button..............................................pass
 Then user is navigated to the home page.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test login functionality" name="Check login is successful with valid credentials 2" time="8.353">
+<testcase classname="Test login functionality" name="Check login is successful with valid credentials 2" time="7.436">
 <system-out><![CDATA[Given the browser is open...................................................passed
 And user is on the login page...............................................passed
 When user enters the Tester1 and 12345......................................passed
@@ -40,7 +84,7 @@ And clicks on the login button..............................................pass
 Then user is navigated to the home page.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test login functionality" name="Check login is not successful with invalid credentials" time="8.225">
+<testcase classname="Test login functionality" name="Check login is not successful with invalid credentials" time="7.114">
 <system-out><![CDATA[Given the browser is open...................................................passed
 And user is on the login page...............................................passed
 When user enters the Michael and 123........................................passed
@@ -48,7 +92,7 @@ And clicks on the login button..............................................pass
 Then user is given an invalid password message..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test login functionality" name="Check login is not successful with invalid credentials 2" time="7.018">
+<testcase classname="Test login functionality" name="Check login is not successful with invalid credentials 2" time="7.065">
 <system-out><![CDATA[Given the browser is open...................................................passed
 And user is on the login page...............................................passed
 When user enters the Tester1 and 123........................................passed
@@ -56,14 +100,14 @@ And clicks on the login button..............................................pass
 Then user is given an invalid password message..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test login functionality" name="Check login is successful with valid credentials" time="0.011">
+<testcase classname="Feature to test login functionality" name="Check login is successful with valid credentials" time="0.015">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When user enters username and password......................................passed
 And clicks on login button..................................................passed
 Then user is navigated to the Home Page.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test login functionality" name="Check login is unsuccessful with invalid credentials" time="0.004">
+<testcase classname="Feature to test login functionality" name="Check login is unsuccessful with invalid credentials" time="0.003">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When user enters incorrect username and password............................passed
 And clicks on login button..................................................passed

@@ -329,6 +329,479 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("file:src/Tests/java/Features/HomePage.feature");
+formatter.feature({
+  "name": "To test the functionality of the Form on the Home Page of TestProject Demo",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "To check entering no data in the form will give every user all 5 error messages",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "the browser is open",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "user is on the login page",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user enters the \u003cusername\u003e and \u003cpassword\u003e",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "clicks on the login button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user is navigated to the home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user performs no actions on the form page",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "user clicks on the Save button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user will get an error message for all fields",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ]
+    },
+    {
+      "cells": [
+        "Michael",
+        "12345"
+      ]
+    },
+    {
+      "cells": [
+        "Tester1",
+        "12345"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "To check entering no data in the form will give every user all 5 error messages",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "the browser is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.the_browser_is_open()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on the login page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_is_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters the Michael and 12345",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_enters_the_username_and_password(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicks on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.clicksOnTheLoginButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is navigated to the home page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_is_navigated_to_the_home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user performs no actions on the form page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.user_performs_no_actions_on_the_form_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the Save button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.user_clicks_on_the_Save_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user will get an error message for all fields",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.user_will_get_an_error_message_for_all_fields()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To check entering no data in the form will give every user all 5 error messages",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "the browser is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.the_browser_is_open()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on the login page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_is_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters the Tester1 and 12345",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_enters_the_username_and_password(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicks on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.clicksOnTheLoginButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is navigated to the home page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_is_navigated_to_the_home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user performs no actions on the form page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.user_performs_no_actions_on_the_form_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the Save button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.user_clicks_on_the_Save_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user will get an error message for all fields",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.user_will_get_an_error_message_for_all_fields()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "To check the functionality of the country field for each user",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "the browser is open",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "user is on the login page",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user enters the \u003cusername\u003e and \u003cpassword\u003e",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "clicks on the login button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user is navigated to the home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user selects \u003ccountry\u003e on the form page",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "user clicks on the Save button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "error message for country field should not be present",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password",
+        "country"
+      ]
+    },
+    {
+      "cells": [
+        "Michael",
+        "12345",
+        "Afghanistan"
+      ]
+    },
+    {
+      "cells": [
+        "Tester1",
+        "12345",
+        "Albania"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "To check the functionality of the country field for each user",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "the browser is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.the_browser_is_open()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on the login page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_is_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters the Michael and 12345",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_enters_the_username_and_password(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicks on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.clicksOnTheLoginButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is navigated to the home page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_is_navigated_to_the_home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects Afghanistan on the form page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.userSelectsCountryOnTheFormPage(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the Save button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.user_clicks_on_the_Save_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "error message for country field should not be present",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.errorMessageForCountryFieldShouldNotBePresent()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To check the functionality of the country field for each user",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "the browser is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.the_browser_is_open()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on the login page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_is_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters the Tester1 and 12345",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_enters_the_username_and_password(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicks on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.clicksOnTheLoginButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is navigated to the home page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_is_navigated_to_the_home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects Albania on the form page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.userSelectsCountryOnTheFormPage(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the Save button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.user_clicks_on_the_Save_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "error message for country field should not be present",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.errorMessageForCountryFieldShouldNotBePresent()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.uri("file:src/Tests/java/Features/LoginDemo.feature");
 formatter.feature({
   "name": "Test login functionality",

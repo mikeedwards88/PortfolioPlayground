@@ -1,4 +1,5 @@
 package WeatherShopper;
+import TheInternet.TestBase;
 import TheInternet.Tools;
 import org.openqa.selenium.By;
 
@@ -6,7 +7,7 @@ public class WeatherShopper {
 
     public static void main(String[] args) {
         System.out.println("Testing Started...........");
-        Tools.initiateDriver();
+        new TestBase();
         loadHomePage();
         Tools.addDelay(3000);  //wait 5seconds
         checkTemperature();

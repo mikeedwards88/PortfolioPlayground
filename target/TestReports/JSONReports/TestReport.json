@@ -3,17 +3,28 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-10-15T15:36:04.873Z",
-        "line": 12,
+        "start_timestamp": "2021-10-19T13:20:29.087Z",
+        "line": 13,
         "name": "Validate Google search is working",
         "description": "",
         "id": "to-test-google-search-functionality;validate-google-search-is-working;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4174000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3215000000,
+              "duration": 2840000000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 2403000000,
+              "duration": 1179000000,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 133000000,
+              "duration": 131000000,
               "status": "passed"
             },
             "line": 7,
@@ -55,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 2013000000,
+              "duration": 2425000000,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 1691000000,
+              "duration": 391000000,
               "status": "passed"
             },
             "line": 9,
@@ -112,17 +123,28 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-15T15:36:14.511Z",
-        "line": 13,
+        "start_timestamp": "2021-10-19T13:20:40.369Z",
+        "line": 14,
         "name": "Validate Google search is working",
         "description": "",
         "id": "to-test-google-search-functionality;validate-google-search-is-working;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4177000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1832000000,
+              "duration": 1588000000,
               "status": "passed"
             },
             "line": 5,
@@ -134,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 2018000000,
+              "duration": 1138000000,
               "status": "passed"
             },
             "line": 6,
@@ -146,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 295000000,
+              "duration": 147000000,
               "status": "passed"
             },
             "line": 7,
@@ -164,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 2732000000,
+              "duration": 3781000000,
               "status": "passed"
             },
             "line": 8,
@@ -176,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 4750000000,
+              "duration": 337000000,
               "status": "passed"
             },
             "line": 9,
@@ -221,17 +243,28 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-15T15:36:26.148Z",
-        "line": 14,
+        "start_timestamp": "2021-10-19T13:20:51.551Z",
+        "line": 15,
         "name": "Validate Google search is working",
         "description": "",
         "id": "to-test-google-search-functionality;validate-google-search-is-working;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 4202000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1686000000,
+              "duration": 1636000000,
               "status": "passed"
             },
             "line": 5,
@@ -243,7 +276,7 @@
           },
           {
             "result": {
-              "duration": 2268000000,
+              "duration": 1130000000,
               "status": "passed"
             },
             "line": 6,
@@ -255,7 +288,7 @@
           },
           {
             "result": {
-              "duration": 129000000,
+              "duration": 126000000,
               "status": "passed"
             },
             "line": 7,
@@ -273,7 +306,7 @@
           },
           {
             "result": {
-              "duration": 2075000000,
+              "duration": 1693000000,
               "status": "passed"
             },
             "line": 8,
@@ -285,7 +318,7 @@
           },
           {
             "result": {
-              "duration": 2993000000,
+              "duration": 276000000,
               "status": "passed"
             },
             "line": 9,
@@ -403,23 +436,34 @@
     ]
   },
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-10-15T15:36:35.315Z",
+        "start_timestamp": "2021-10-19T13:21:00.626Z",
         "line": 16,
         "name": "To check entering no data in the form will give every user all 5 error messages",
         "description": "",
         "id": "to-test-the-functionality-of-the-form-on-the-home-page-of-testproject-demo;to-check-entering-no-data-in-the-form-will-give-every-user-all-5-error-messages;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3041000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1867000000,
+              "duration": 1682000000,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "the browser is open",
             "match": {
               "location": "StepDefinitions.LoginDemoSteps_PF.the_browser_is_open()"
@@ -428,10 +472,10 @@
           },
           {
             "result": {
-              "duration": 726000000,
+              "duration": 678000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "user is on the login page",
             "match": {
               "location": "StepDefinitions.LoginDemoSteps_PF.user_is_on_the_login_page()"
@@ -440,10 +484,10 @@
           },
           {
             "result": {
-              "duration": 160000000,
+              "duration": 154000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user enters the Michael and 12345",
             "match": {
               "arguments": [
@@ -462,10 +506,10 @@
           },
           {
             "result": {
-              "duration": 1562000000,
+              "duration": 1563000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "clicks on the login button",
             "match": {
               "location": "StepDefinitions.LoginDemoSteps_PF.clicksOnTheLoginButton()"
@@ -474,10 +518,10 @@
           },
           {
             "result": {
-              "duration": 1585000000,
+              "duration": 1571000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "user is navigated to the home page",
             "match": {
               "location": "StepDefinitions.LoginDemoSteps_PF.user_is_navigated_to_the_home_page()"
@@ -486,10 +530,10 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "user performs no actions on the form page",
             "match": {
               "location": "StepDefinitions.HomePageSteps_PF.user_performs_no_actions_on_the_form_page()"
@@ -498,10 +542,10 @@
           },
           {
             "result": {
-              "duration": 125000000,
+              "duration": 102000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "user clicks on the Save button",
             "match": {
               "location": "StepDefinitions.HomePageSteps_PF.user_clicks_on_the_Save_button()"
@@ -510,33 +554,49 @@
           },
           {
             "result": {
-              "duration": 233000000,
+              "duration": 463000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "user will get an error message for all fields",
             "match": {
               "location": "StepDefinitions.HomePageSteps_PF.user_will_get_an_error_message_for_all_fields()"
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "name": "@HomePage"
+          }
         ]
       },
       {
-        "start_timestamp": "2021-10-15T15:36:41.591Z",
+        "start_timestamp": "2021-10-19T13:21:09.900Z",
         "line": 17,
         "name": "To check entering no data in the form will give every user all 5 error messages",
         "description": "",
         "id": "to-test-the-functionality-of-the-form-on-the-home-page-of-testproject-demo;to-check-entering-no-data-in-the-form-will-give-every-user-all-5-error-messages;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4212000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1946000000,
+              "duration": 1584000000,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "the browser is open",
             "match": {
               "location": "StepDefinitions.LoginDemoSteps_PF.the_browser_is_open()"
@@ -545,10 +605,10 @@
           },
           {
             "result": {
-              "duration": 1037000000,
+              "duration": 618000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "user is on the login page",
             "match": {
               "location": "StepDefinitions.LoginDemoSteps_PF.user_is_on_the_login_page()"
@@ -557,10 +617,10 @@
           },
           {
             "result": {
-              "duration": 322000000,
+              "duration": 167000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user enters the Tester1 and 12345",
             "match": {
               "arguments": [
@@ -579,10 +639,10 @@
           },
           {
             "result": {
-              "duration": 1637000000,
+              "duration": 1563000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "clicks on the login button",
             "match": {
               "location": "StepDefinitions.LoginDemoSteps_PF.clicksOnTheLoginButton()"
@@ -591,10 +651,10 @@
           },
           {
             "result": {
-              "duration": 1583000000,
+              "duration": 1569000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "user is navigated to the home page",
             "match": {
               "location": "StepDefinitions.LoginDemoSteps_PF.user_is_navigated_to_the_home_page()"
@@ -603,10 +663,9 @@
           },
           {
             "result": {
-              "duration": 2000000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "user performs no actions on the form page",
             "match": {
               "location": "StepDefinitions.HomePageSteps_PF.user_performs_no_actions_on_the_form_page()"
@@ -615,10 +674,10 @@
           },
           {
             "result": {
-              "duration": 67000000,
+              "duration": 79000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "user clicks on the Save button",
             "match": {
               "location": "StepDefinitions.HomePageSteps_PF.user_clicks_on_the_Save_button()"
@@ -627,30 +686,46 @@
           },
           {
             "result": {
-              "duration": 809000000,
+              "duration": 387000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "user will get an error message for all fields",
             "match": {
               "location": "StepDefinitions.HomePageSteps_PF.user_will_get_an_error_message_for_all_fields()"
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "name": "@HomePage"
+          }
         ]
       },
       {
-        "start_timestamp": "2021-10-15T15:36:49.008Z",
-        "line": 32,
+        "start_timestamp": "2021-10-19T13:21:20.089Z",
+        "line": 31,
         "name": "To check the functionality of the country field for each user",
         "description": "",
         "id": "to-test-the-functionality-of-the-form-on-the-home-page-of-testproject-demo;to-check-the-functionality-of-the-country-field-for-each-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4401000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2207000000,
+              "duration": 1623000000,
               "status": "passed"
             },
             "line": 20,
@@ -662,7 +737,7 @@
           },
           {
             "result": {
-              "duration": 2004000000,
+              "duration": 613000000,
               "status": "passed"
             },
             "line": 21,
@@ -674,7 +749,7 @@
           },
           {
             "result": {
-              "duration": 312000000,
+              "duration": 159000000,
               "status": "passed"
             },
             "line": 22,
@@ -696,7 +771,7 @@
           },
           {
             "result": {
-              "duration": 1571000000,
+              "duration": 1560000000,
               "status": "passed"
             },
             "line": 23,
@@ -708,7 +783,7 @@
           },
           {
             "result": {
-              "duration": 1570000000,
+              "duration": 1573000000,
               "status": "passed"
             },
             "line": 24,
@@ -720,7 +795,7 @@
           },
           {
             "result": {
-              "duration": 2117000000,
+              "duration": 2100000000,
               "status": "passed"
             },
             "line": 25,
@@ -729,6 +804,145 @@
               "arguments": [
                 {
                   "val": "Afghanistan",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.HomePageSteps_PF.userSelectsCountryOnTheFormPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on the Save button",
+            "match": {
+              "location": "StepDefinitions.HomePageSteps_PF.user_clicks_on_the_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "error message for country field should not be present",
+            "match": {
+              "location": "StepDefinitions.HomePageSteps_PF.errorMessageForCountryFieldShouldNotBePresent()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomePage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-19T13:21:32.383Z",
+        "line": 32,
+        "name": "To check the functionality of the country field for each user",
+        "description": "",
+        "id": "to-test-the-functionality-of-the-form-on-the-home-page-of-testproject-demo;to-check-the-functionality-of-the-country-field-for-each-user;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4331000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1759000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the browser is open",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps_PF.the_browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 577000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on the login page",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps_PF.user_is_on_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters the Tester1 and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester1",
+                  "offset": 16
+                },
+                {
+                  "val": "12345",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinitions.LoginDemoSteps_PF.user_enters_the_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1564000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps_PF.clicksOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1571000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps_PF.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2227000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user selects Albania on the form page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Albania",
                   "offset": 13
                 }
               ],
@@ -750,6 +964,7 @@
           },
           {
             "result": {
+              "duration": 118000000,
               "status": "passed"
             },
             "line": 27,
@@ -759,23 +974,39 @@
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "name": "@HomePage"
+          }
         ]
       },
       {
-        "start_timestamp": "2021-10-15T15:36:58.871Z",
-        "line": 33,
-        "name": "To check the functionality of the country field for each user",
+        "start_timestamp": "2021-10-19T13:21:44.755Z",
+        "line": 50,
+        "name": "To check if correctly completing the form, will give the \u0027Saved\u0027 message",
         "description": "",
-        "id": "to-test-the-functionality-of-the-form-on-the-home-page-of-testproject-demo;to-check-the-functionality-of-the-country-field-for-each-user;;3",
+        "id": "to-test-the-functionality-of-the-form-on-the-home-page-of-testproject-demo;to-check-if-correctly-completing-the-form--will-give-the--saved--message;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4329000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2190000000,
+              "duration": 1553000000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 36,
             "name": "the browser is open",
             "match": {
               "location": "StepDefinitions.LoginDemoSteps_PF.the_browser_is_open()"
@@ -784,10 +1015,10 @@
           },
           {
             "result": {
-              "duration": 863000000,
+              "duration": 754000000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 37,
             "name": "user is on the login page",
             "match": {
               "location": "StepDefinitions.LoginDemoSteps_PF.user_is_on_the_login_page()"
@@ -796,10 +1027,206 @@
           },
           {
             "result": {
-              "duration": 236000000,
+              "duration": 158000000,
               "status": "passed"
             },
-            "line": 22,
+            "line": 38,
+            "name": "user enters the Michael and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Michael",
+                  "offset": 16
+                },
+                {
+                  "val": "12345",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinitions.LoginDemoSteps_PF.user_enters_the_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1559000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps_PF.clicksOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1561000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps_PF.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2237000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user selects United Kingdom on the form page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "United Kingdom",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.HomePageSteps_PF.userSelectsCountryOnTheFormPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 592000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "enters House 1, Bristol into the address field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "House 1, Bristol",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinitions.HomePageSteps_PF.entersAddressIntoTheAddressField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 589000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "enters a michael@email.com address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "michael@email.com",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.HomePageSteps_PF.entersAEmailAddress(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 592000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "enters 0800123456 into the phone field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0800123456",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinitions.HomePageSteps_PF.entersPhoneIntoThePhoneField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user clicks on the Save button",
+            "match": {
+              "location": "StepDefinitions.HomePageSteps_PF.user_clicks_on_the_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2153000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Saved will appear in green text below the form",
+            "match": {
+              "location": "StepDefinitions.HomePageSteps_PF.savedWillAppearInGreenTextBelowTheForm()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomePage"
+          },
+          {
+            "name": "@FillForm"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-19T13:22:00.952Z",
+        "line": 51,
+        "name": "To check if correctly completing the form, will give the \u0027Saved\u0027 message",
+        "description": "",
+        "id": "to-test-the-functionality-of-the-form-on-the-home-page-of-testproject-demo;to-check-if-correctly-completing-the-form--will-give-the--saved--message;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4268000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1608000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the browser is open",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps_PF.the_browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 632000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user is on the login page",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps_PF.user_is_on_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155000000,
+              "status": "passed"
+            },
+            "line": 38,
             "name": "user enters the Tester1 and 12345",
             "match": {
               "arguments": [
@@ -818,10 +1245,10 @@
           },
           {
             "result": {
-              "duration": 1581000000,
+              "duration": 1561000000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 39,
             "name": "clicks on the login button",
             "match": {
               "location": "StepDefinitions.LoginDemoSteps_PF.clicksOnTheLoginButton()"
@@ -830,10 +1257,10 @@
           },
           {
             "result": {
-              "duration": 1574000000,
+              "duration": 1580000000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 40,
             "name": "user is navigated to the home page",
             "match": {
               "location": "StepDefinitions.LoginDemoSteps_PF.user_is_navigated_to_the_home_page()"
@@ -842,15 +1269,15 @@
           },
           {
             "result": {
-              "duration": 2144000000,
+              "duration": 2138000000,
               "status": "passed"
             },
-            "line": 25,
-            "name": "user selects Albania on the form page",
+            "line": 41,
+            "name": "user selects Australia on the form page",
             "match": {
               "arguments": [
                 {
-                  "val": "Albania",
+                  "val": "Australia",
                   "offset": 13
                 }
               ],
@@ -860,10 +1287,64 @@
           },
           {
             "result": {
-              "duration": 63000000,
+              "duration": 611000000,
               "status": "passed"
             },
-            "line": 26,
+            "line": 42,
+            "name": "enters Flat 20, Bristol into the address field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Flat 20, Bristol",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinitions.HomePageSteps_PF.entersAddressIntoTheAddressField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "enters a tester1@email.com address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tester1@email.com",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.HomePageSteps_PF.entersAEmailAddress(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 585000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "enters 0123456789 into the phone field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0123456789",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinitions.HomePageSteps_PF.entersPhoneIntoThePhoneField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "line": 45,
             "name": "user clicks on the Save button",
             "match": {
               "location": "StepDefinitions.HomePageSteps_PF.user_clicks_on_the_Save_button()"
@@ -872,14 +1353,23 @@
           },
           {
             "result": {
+              "duration": 2104000000,
               "status": "passed"
             },
-            "line": 27,
-            "name": "error message for country field should not be present",
+            "line": 46,
+            "name": "Saved will appear in green text below the form",
             "match": {
-              "location": "StepDefinitions.HomePageSteps_PF.errorMessageForCountryFieldShouldNotBePresent()"
+              "location": "StepDefinitions.HomePageSteps_PF.savedWillAppearInGreenTextBelowTheForm()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomePage"
+          },
+          {
+            "name": "@FillForm"
           }
         ]
       }
@@ -889,23 +1379,43 @@
     "id": "to-test-the-functionality-of-the-form-on-the-home-page-of-testproject-demo",
     "keyword": "Feature",
     "uri": "file:src/Tests/java/Features/HomePage.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@HomePage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   },
   {
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-10-15T15:37:07.532Z",
+        "start_timestamp": "2021-10-19T13:22:16.875Z",
         "line": 13,
         "name": "Check login is successful with valid credentials",
         "description": "",
         "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4155000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2848000000,
+              "duration": 1664000000,
               "status": "passed"
             },
             "line": 5,
@@ -917,7 +1427,7 @@
           },
           {
             "result": {
-              "duration": 1004000000,
+              "duration": 662000000,
               "status": "passed"
             },
             "line": 6,
@@ -929,7 +1439,7 @@
           },
           {
             "result": {
-              "duration": 315000000,
+              "duration": 158000000,
               "status": "passed"
             },
             "line": 7,
@@ -951,7 +1461,7 @@
           },
           {
             "result": {
-              "duration": 1561000000,
+              "duration": 1559000000,
               "status": "passed"
             },
             "line": 8,
@@ -963,7 +1473,7 @@
           },
           {
             "result": {
-              "duration": 1571000000,
+              "duration": 1563000000,
               "status": "passed"
             },
             "line": 9,
@@ -981,17 +1491,28 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-15T15:37:14.857Z",
+        "start_timestamp": "2021-10-19T13:22:26.645Z",
         "line": 14,
         "name": "Check login is successful with valid credentials",
         "description": "",
         "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2909000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2718000000,
+              "duration": 1618000000,
               "status": "passed"
             },
             "line": 5,
@@ -1003,7 +1524,7 @@
           },
           {
             "result": {
-              "duration": 1212000000,
+              "duration": 772000000,
               "status": "passed"
             },
             "line": 6,
@@ -1015,7 +1536,7 @@
           },
           {
             "result": {
-              "duration": 308000000,
+              "duration": 154000000,
               "status": "passed"
             },
             "line": 7,
@@ -1037,7 +1558,7 @@
           },
           {
             "result": {
-              "duration": 1576000000,
+              "duration": 1559000000,
               "status": "passed"
             },
             "line": 8,
@@ -1049,7 +1570,7 @@
           },
           {
             "result": {
-              "duration": 1618000000,
+              "duration": 1563000000,
               "status": "passed"
             },
             "line": 9,
@@ -1067,17 +1588,28 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-15T15:37:22.294Z",
+        "start_timestamp": "2021-10-19T13:22:35.231Z",
         "line": 24,
         "name": "Check login is not successful with invalid credentials",
         "description": "",
         "id": "test-login-functionality;check-login-is-not-successful-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3050000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2792000000,
+              "duration": 1566000000,
               "status": "passed"
             },
             "line": 17,
@@ -1089,7 +1621,7 @@
           },
           {
             "result": {
-              "duration": 865000000,
+              "duration": 742000000,
               "status": "passed"
             },
             "line": 18,
@@ -1101,7 +1633,7 @@
           },
           {
             "result": {
-              "duration": 287000000,
+              "duration": 158000000,
               "status": "passed"
             },
             "line": 19,
@@ -1123,7 +1655,7 @@
           },
           {
             "result": {
-              "duration": 1590000000,
+              "duration": 1554000000,
               "status": "passed"
             },
             "line": 20,
@@ -1135,7 +1667,7 @@
           },
           {
             "result": {
-              "duration": 1576000000,
+              "duration": 1537000000,
               "status": "passed"
             },
             "line": 21,
@@ -1153,17 +1685,28 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-15T15:37:29.505Z",
+        "start_timestamp": "2021-10-19T13:22:43.846Z",
         "line": 25,
         "name": "Check login is not successful with invalid credentials",
         "description": "",
         "id": "test-login-functionality;check-login-is-not-successful-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4193000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2720000000,
+              "duration": 1566000000,
               "status": "passed"
             },
             "line": 17,
@@ -1175,7 +1718,7 @@
           },
           {
             "result": {
-              "duration": 921000000,
+              "duration": 685000000,
               "status": "passed"
             },
             "line": 18,
@@ -1187,7 +1730,7 @@
           },
           {
             "result": {
-              "duration": 303000000,
+              "duration": 156000000,
               "status": "passed"
             },
             "line": 19,
@@ -1209,7 +1752,7 @@
           },
           {
             "result": {
-              "duration": 1564000000,
+              "duration": 1551000000,
               "status": "passed"
             },
             "line": 20,
@@ -1221,7 +1764,7 @@
           },
           {
             "result": {
-              "duration": 1548000000,
+              "duration": 1534000000,
               "status": "passed"
             },
             "line": 21,
@@ -1259,16 +1802,28 @@
     "line": 6,
     "elements": [
       {
-        "start_timestamp": "2021-10-15T15:37:36.574Z",
+        "start_timestamp": "2021-10-19T13:22:53.540Z",
         "line": 9,
         "name": "Check login is successful with valid credentials",
         "description": "",
         "id": "feature-to-test-login-functionality;check-login-is-successful-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 2538000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+              "duration": 1493000000,
               "status": "passed"
             },
             "line": 10,
@@ -1326,16 +1881,28 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-15T15:37:36.591Z",
+        "start_timestamp": "2021-10-19T13:22:57.581Z",
         "line": 16,
         "name": "Check login is unsuccessful with invalid credentials",
         "description": "",
         "id": "feature-to-test-login-functionality;check-login-is-unsuccessful-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 2497000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.BeforeAndAfterSteps.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+              "duration": 1724000000,
               "status": "passed"
             },
             "line": 17,

@@ -1,12 +1,14 @@
 package StepDefinitions;
+import TheInternet.TestBase;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LoginSteps {
+public class LoginSteps extends TestBase {
     @Given("user is on login page")
     public void user_is_on_login_page() {
+        initialiseDriver();
         System.out.println("Inside Step - User is on the login page");}
 
     @When("user enters username and password")

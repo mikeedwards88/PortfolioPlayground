@@ -7,6 +7,7 @@ Feature: To test Google search functionality
     When user enters <text> in search box
     And user hits enter
     Then user is navigated to search <results>
+
     Examples:
       | text | results |
       | Selenium | https://www.selenium.dev  |

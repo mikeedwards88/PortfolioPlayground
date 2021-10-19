@@ -167,6 +167,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "Validate Google search is working",
   "description": "",
@@ -246,6 +249,9 @@ formatter.match({
   "location": "StepDefinitions.GoogleSearchSteps_PF.user_is_navigated_to_search_results(java.lang.String)"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 formatter.scenario({
@@ -329,11 +335,19 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/Tests/java/Features/HomePage.feature");
 formatter.feature({
   "name": "To test the functionality of the Form on the Home Page of TestProject Demo",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@HomePage"
+    }
+  ]
 });
 formatter.scenarioOutline({
   "name": "To check entering no data in the form will give every user all 5 error messages",
@@ -400,7 +414,12 @@ formatter.examples({
 formatter.scenario({
   "name": "To check entering no data in the form will give every user all 5 error messages",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@HomePage"
+    }
+  ]
 });
 formatter.step({
   "name": "the browser is open",
@@ -482,10 +501,18 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "To check entering no data in the form will give every user all 5 error messages",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@HomePage"
+    }
+  ]
 });
 formatter.step({
   "name": "the browser is open",
@@ -567,6 +594,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenarioOutline({
   "name": "To check the functionality of the country field for each user",
   "description": "",
@@ -635,7 +665,12 @@ formatter.examples({
 formatter.scenario({
   "name": "To check the functionality of the country field for each user",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@HomePage"
+    }
+  ]
 });
 formatter.step({
   "name": "the browser is open",
@@ -717,10 +752,18 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "To check the functionality of the country field for each user",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@HomePage"
+    }
+  ]
 });
 formatter.step({
   "name": "the browser is open",
@@ -800,6 +843,352 @@ formatter.match({
   "location": "StepDefinitions.HomePageSteps_PF.errorMessageForCountryFieldShouldNotBePresent()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "To check if correctly completing the form, will give the \u0027Saved\u0027 message",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@FillForm"
+    }
+  ]
+});
+formatter.step({
+  "name": "the browser is open",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "user is on the login page",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user enters the \u003cusername\u003e and \u003cpassword\u003e",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "clicks on the login button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user is navigated to the home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user selects \u003ccountry\u003e on the form page",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "enters \u003caddress\u003e into the address field",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "enters a \u003cemail\u003e address",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "enters \u003cphone\u003e into the phone field",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user clicks on the Save button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Saved will appear in green text below the form",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password",
+        "country",
+        "address",
+        "email",
+        "phone"
+      ]
+    },
+    {
+      "cells": [
+        "Michael",
+        "12345",
+        "United Kingdom",
+        "House 1, Bristol",
+        "michael@email.com",
+        "0800123456"
+      ]
+    },
+    {
+      "cells": [
+        "Tester1",
+        "12345",
+        "Australia",
+        "Flat 20, Bristol",
+        "tester1@email.com",
+        "0123456789"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "To check if correctly completing the form, will give the \u0027Saved\u0027 message",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@HomePage"
+    },
+    {
+      "name": "@FillForm"
+    }
+  ]
+});
+formatter.step({
+  "name": "the browser is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.the_browser_is_open()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on the login page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_is_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters the Michael and 12345",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_enters_the_username_and_password(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicks on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.clicksOnTheLoginButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is navigated to the home page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_is_navigated_to_the_home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects United Kingdom on the form page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.userSelectsCountryOnTheFormPage(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "enters House 1, Bristol into the address field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.entersAddressIntoTheAddressField(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "enters a michael@email.com address",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.entersAEmailAddress(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "enters 0800123456 into the phone field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.entersPhoneIntoThePhoneField(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the Save button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.user_clicks_on_the_Save_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Saved will appear in green text below the form",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.savedWillAppearInGreenTextBelowTheForm()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To check if correctly completing the form, will give the \u0027Saved\u0027 message",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@HomePage"
+    },
+    {
+      "name": "@FillForm"
+    }
+  ]
+});
+formatter.step({
+  "name": "the browser is open",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.the_browser_is_open()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on the login page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_is_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters the Tester1 and 12345",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_enters_the_username_and_password(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicks on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.clicksOnTheLoginButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is navigated to the home page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.LoginDemoSteps_PF.user_is_navigated_to_the_home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects Australia on the form page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.userSelectsCountryOnTheFormPage(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "enters Flat 20, Bristol into the address field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.entersAddressIntoTheAddressField(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "enters a tester1@email.com address",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.entersAEmailAddress(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "enters 0123456789 into the phone field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.entersPhoneIntoThePhoneField(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the Save button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.user_clicks_on_the_Save_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Saved will appear in green text below the form",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.HomePageSteps_PF.savedWillAppearInGreenTextBelowTheForm()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 formatter.uri("file:src/Tests/java/Features/LoginDemo.feature");
@@ -923,6 +1312,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "Check login is successful with valid credentials",
   "description": "",
@@ -981,6 +1373,9 @@ formatter.match({
   "location": "StepDefinitions.LoginDemoSteps_PF.user_is_navigated_to_the_home_page()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1093,6 +1488,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "Check login is not successful with invalid credentials",
   "description": "",
@@ -1151,6 +1549,9 @@ formatter.match({
   "location": "StepDefinitions.LoginDemoSteps_PF.userIsGivenAnInvalidPasswordMessage()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 formatter.uri("file:src/Tests/java/Features/LoginExample.feature");
@@ -1223,6 +1624,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "Check login is unsuccessful with invalid credentials",
   "description": "",
@@ -1277,6 +1681,9 @@ formatter.match({
   "location": "StepDefinitions.LoginSteps.userIsGivenAnErrorMessage()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });

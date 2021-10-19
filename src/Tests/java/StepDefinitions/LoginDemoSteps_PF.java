@@ -14,16 +14,9 @@ public class LoginDemoSteps_PF extends TestBase {
     LoginPage_PF login;              //This refers to the CONSTRUCTOR on LoginPage_PF class.
     HomePage_PF home;
 
-
     public LoginDemoSteps_PF() {
         this.login = new LoginPage_PF();
         this.home = new HomePage_PF();
-    }
-
-    @After public void teardown() {
-        Tools.addDelay(1500);
-        trialDriver.close();
-        trialDriver.quit();
     }
 
 
@@ -31,7 +24,6 @@ public class LoginDemoSteps_PF extends TestBase {
     public void the_browser_is_open() {
         login.initialiseDriver();
     }
-
     @Given("user is on the login page")
     public void user_is_on_the_login_page() {
         trialDriver.navigate().to("https://example.testproject.io/web");

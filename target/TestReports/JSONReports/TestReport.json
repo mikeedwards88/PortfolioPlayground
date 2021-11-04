@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-10-19T13:20:29.087Z",
+        "start_timestamp": "2021-11-02T17:30:11.691Z",
         "line": 13,
         "name": "Validate Google search is working",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 4174000000,
+              "duration": 4160000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2840000000,
+              "duration": 3032000000,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1179000000,
+              "duration": 1200000000,
               "status": "passed"
             },
             "line": 6,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 131000000,
+              "duration": 259000000,
               "status": "passed"
             },
             "line": 7,
@@ -66,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 2425000000,
+              "duration": 1989000000,
               "status": "passed"
             },
             "line": 8,
@@ -78,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 391000000,
+              "duration": 536000000,
               "status": "passed"
             },
             "line": 9,
@@ -123,7 +123,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-19T13:20:40.369Z",
+        "start_timestamp": "2021-11-02T17:30:23.102Z",
         "line": 14,
         "name": "Validate Google search is working",
         "description": "",
@@ -131,7 +131,7 @@
         "after": [
           {
             "result": {
-              "duration": 4177000000,
+              "duration": 4216000000,
               "status": "passed"
             },
             "match": {
@@ -144,7 +144,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1588000000,
+              "duration": 1631000000,
               "status": "passed"
             },
             "line": 5,
@@ -156,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 1138000000,
+              "duration": 1234000000,
               "status": "passed"
             },
             "line": 6,
@@ -168,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 147000000,
+              "duration": 125000000,
               "status": "passed"
             },
             "line": 7,
@@ -186,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 3781000000,
+              "duration": 2081000000,
               "status": "passed"
             },
             "line": 8,
@@ -198,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 337000000,
+              "duration": 414000000,
               "status": "passed"
             },
             "line": 9,
@@ -243,7 +243,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-19T13:20:51.551Z",
+        "start_timestamp": "2021-11-02T17:30:32.814Z",
         "line": 15,
         "name": "Validate Google search is working",
         "description": "",
@@ -251,7 +251,7 @@
         "after": [
           {
             "result": {
-              "duration": 4202000000,
+              "duration": 4211000000,
               "status": "passed"
             },
             "match": {
@@ -264,7 +264,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1636000000,
+              "duration": 1630000000,
               "status": "passed"
             },
             "line": 5,
@@ -276,7 +276,7 @@
           },
           {
             "result": {
-              "duration": 1130000000,
+              "duration": 1319000000,
               "status": "passed"
             },
             "line": 6,
@@ -288,7 +288,7 @@
           },
           {
             "result": {
-              "duration": 126000000,
+              "duration": 145000000,
               "status": "passed"
             },
             "line": 7,
@@ -306,7 +306,7 @@
           },
           {
             "result": {
-              "duration": 1693000000,
+              "duration": 1919000000,
               "status": "passed"
             },
             "line": 8,
@@ -318,7 +318,7 @@
           },
           {
             "result": {
-              "duration": 276000000,
+              "duration": 383000000,
               "status": "passed"
             },
             "line": 9,
@@ -439,7 +439,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-10-19T13:21:00.626Z",
+        "start_timestamp": "2021-11-02T17:30:42.431Z",
         "line": 16,
         "name": "To check entering no data in the form will give every user all 5 error messages",
         "description": "",
@@ -447,7 +447,7 @@
         "after": [
           {
             "result": {
-              "duration": 3041000000,
+              "duration": 3195000000,
               "status": "passed"
             },
             "match": {
@@ -460,7 +460,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1682000000,
+              "duration": 1784000000,
               "status": "passed"
             },
             "line": 5,
@@ -472,7 +472,7 @@
           },
           {
             "result": {
-              "duration": 678000000,
+              "duration": 714000000,
               "status": "passed"
             },
             "line": 6,
@@ -484,7 +484,7 @@
           },
           {
             "result": {
-              "duration": 154000000,
+              "duration": 171000000,
               "status": "passed"
             },
             "line": 7,
@@ -506,7 +506,7 @@
           },
           {
             "result": {
-              "duration": 1563000000,
+              "duration": 1565000000,
               "status": "passed"
             },
             "line": 8,
@@ -518,7 +518,7 @@
           },
           {
             "result": {
-              "duration": 1571000000,
+              "duration": 1584000000,
               "status": "passed"
             },
             "line": 9,
@@ -530,7 +530,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -542,7 +542,7 @@
           },
           {
             "result": {
-              "duration": 102000000,
+              "duration": 112000000,
               "status": "passed"
             },
             "line": 11,
@@ -554,7 +554,7 @@
           },
           {
             "result": {
-              "duration": 463000000,
+              "duration": 910000000,
               "status": "passed"
             },
             "line": 12,
@@ -572,7 +572,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-19T13:21:09.900Z",
+        "start_timestamp": "2021-11-02T17:30:52.484Z",
         "line": 17,
         "name": "To check entering no data in the form will give every user all 5 error messages",
         "description": "",
@@ -580,7 +580,7 @@
         "after": [
           {
             "result": {
-              "duration": 4212000000,
+              "duration": 3024000000,
               "status": "passed"
             },
             "match": {
@@ -593,7 +593,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1584000000,
+              "duration": 1768000000,
               "status": "passed"
             },
             "line": 5,
@@ -605,7 +605,7 @@
           },
           {
             "result": {
-              "duration": 618000000,
+              "duration": 789000000,
               "status": "passed"
             },
             "line": 6,
@@ -617,7 +617,7 @@
           },
           {
             "result": {
-              "duration": 167000000,
+              "duration": 166000000,
               "status": "passed"
             },
             "line": 7,
@@ -651,7 +651,7 @@
           },
           {
             "result": {
-              "duration": 1569000000,
+              "duration": 1575000000,
               "status": "passed"
             },
             "line": 9,
@@ -663,6 +663,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -674,7 +675,7 @@
           },
           {
             "result": {
-              "duration": 79000000,
+              "duration": 67000000,
               "status": "passed"
             },
             "line": 11,
@@ -686,7 +687,7 @@
           },
           {
             "result": {
-              "duration": 387000000,
+              "duration": 551000000,
               "status": "passed"
             },
             "line": 12,
@@ -704,7 +705,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-19T13:21:20.089Z",
+        "start_timestamp": "2021-11-02T17:31:01.995Z",
         "line": 31,
         "name": "To check the functionality of the country field for each user",
         "description": "",
@@ -712,7 +713,7 @@
         "after": [
           {
             "result": {
-              "duration": 4401000000,
+              "duration": 4303000000,
               "status": "passed"
             },
             "match": {
@@ -725,7 +726,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1623000000,
+              "duration": 1721000000,
               "status": "passed"
             },
             "line": 20,
@@ -737,7 +738,7 @@
           },
           {
             "result": {
-              "duration": 613000000,
+              "duration": 778000000,
               "status": "passed"
             },
             "line": 21,
@@ -749,7 +750,7 @@
           },
           {
             "result": {
-              "duration": 159000000,
+              "duration": 194000000,
               "status": "passed"
             },
             "line": 22,
@@ -771,7 +772,7 @@
           },
           {
             "result": {
-              "duration": 1560000000,
+              "duration": 1572000000,
               "status": "passed"
             },
             "line": 23,
@@ -783,7 +784,7 @@
           },
           {
             "result": {
-              "duration": 1573000000,
+              "duration": 1631000000,
               "status": "passed"
             },
             "line": 24,
@@ -795,7 +796,7 @@
           },
           {
             "result": {
-              "duration": 2100000000,
+              "duration": 2496000000,
               "status": "passed"
             },
             "line": 25,
@@ -813,7 +814,7 @@
           },
           {
             "result": {
-              "duration": 77000000,
+              "duration": 59000000,
               "status": "passed"
             },
             "line": 26,
@@ -825,7 +826,7 @@
           },
           {
             "result": {
-              "duration": 175000000,
+              "duration": 147000000,
               "status": "passed"
             },
             "line": 27,
@@ -843,7 +844,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-19T13:21:32.383Z",
+        "start_timestamp": "2021-11-02T17:31:14.910Z",
         "line": 32,
         "name": "To check the functionality of the country field for each user",
         "description": "",
@@ -851,7 +852,7 @@
         "after": [
           {
             "result": {
-              "duration": 4331000000,
+              "duration": 2742000000,
               "status": "passed"
             },
             "match": {
@@ -864,7 +865,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1759000000,
+              "duration": 1630000000,
               "status": "passed"
             },
             "line": 20,
@@ -876,7 +877,7 @@
           },
           {
             "result": {
-              "duration": 577000000,
+              "duration": 843000000,
               "status": "passed"
             },
             "line": 21,
@@ -888,7 +889,7 @@
           },
           {
             "result": {
-              "duration": 153000000,
+              "duration": 261000000,
               "status": "passed"
             },
             "line": 22,
@@ -910,7 +911,7 @@
           },
           {
             "result": {
-              "duration": 1564000000,
+              "duration": 1565000000,
               "status": "passed"
             },
             "line": 23,
@@ -922,7 +923,7 @@
           },
           {
             "result": {
-              "duration": 1571000000,
+              "duration": 1568000000,
               "status": "passed"
             },
             "line": 24,
@@ -934,7 +935,7 @@
           },
           {
             "result": {
-              "duration": 2227000000,
+              "duration": 2141000000,
               "status": "passed"
             },
             "line": 25,
@@ -952,7 +953,7 @@
           },
           {
             "result": {
-              "duration": 69000000,
+              "duration": 58000000,
               "status": "passed"
             },
             "line": 26,
@@ -964,7 +965,7 @@
           },
           {
             "result": {
-              "duration": 118000000,
+              "duration": 119000000,
               "status": "passed"
             },
             "line": 27,
@@ -982,7 +983,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-19T13:21:44.755Z",
+        "start_timestamp": "2021-11-02T17:31:25.846Z",
         "line": 50,
         "name": "To check if correctly completing the form, will give the \u0027Saved\u0027 message",
         "description": "",
@@ -990,7 +991,7 @@
         "after": [
           {
             "result": {
-              "duration": 4329000000,
+              "duration": 4199000000,
               "status": "passed"
             },
             "match": {
@@ -1003,7 +1004,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1553000000,
+              "duration": 1715000000,
               "status": "passed"
             },
             "line": 36,
@@ -1015,7 +1016,7 @@
           },
           {
             "result": {
-              "duration": 754000000,
+              "duration": 679000000,
               "status": "passed"
             },
             "line": 37,
@@ -1027,7 +1028,7 @@
           },
           {
             "result": {
-              "duration": 158000000,
+              "duration": 167000000,
               "status": "passed"
             },
             "line": 38,
@@ -1049,7 +1050,7 @@
           },
           {
             "result": {
-              "duration": 1559000000,
+              "duration": 1563000000,
               "status": "passed"
             },
             "line": 39,
@@ -1061,7 +1062,7 @@
           },
           {
             "result": {
-              "duration": 1561000000,
+              "duration": 1589000000,
               "status": "passed"
             },
             "line": 40,
@@ -1073,7 +1074,7 @@
           },
           {
             "result": {
-              "duration": 2237000000,
+              "duration": 2098000000,
               "status": "passed"
             },
             "line": 41,
@@ -1091,7 +1092,7 @@
           },
           {
             "result": {
-              "duration": 592000000,
+              "duration": 624000000,
               "status": "passed"
             },
             "line": 42,
@@ -1109,7 +1110,7 @@
           },
           {
             "result": {
-              "duration": 589000000,
+              "duration": 604000000,
               "status": "passed"
             },
             "line": 43,
@@ -1127,7 +1128,7 @@
           },
           {
             "result": {
-              "duration": 592000000,
+              "duration": 658000000,
               "status": "passed"
             },
             "line": 44,
@@ -1145,7 +1146,7 @@
           },
           {
             "result": {
-              "duration": 109000000,
+              "duration": 58000000,
               "status": "passed"
             },
             "line": 45,
@@ -1157,7 +1158,7 @@
           },
           {
             "result": {
-              "duration": 2153000000,
+              "duration": 2102000000,
               "status": "passed"
             },
             "line": 46,
@@ -1178,7 +1179,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-19T13:22:00.952Z",
+        "start_timestamp": "2021-11-02T17:31:41.913Z",
         "line": 51,
         "name": "To check if correctly completing the form, will give the \u0027Saved\u0027 message",
         "description": "",
@@ -1186,7 +1187,7 @@
         "after": [
           {
             "result": {
-              "duration": 4268000000,
+              "duration": 4306000000,
               "status": "passed"
             },
             "match": {
@@ -1199,7 +1200,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1608000000,
+              "duration": 1621000000,
               "status": "passed"
             },
             "line": 36,
@@ -1211,7 +1212,7 @@
           },
           {
             "result": {
-              "duration": 632000000,
+              "duration": 746000000,
               "status": "passed"
             },
             "line": 37,
@@ -1223,7 +1224,7 @@
           },
           {
             "result": {
-              "duration": 155000000,
+              "duration": 154000000,
               "status": "passed"
             },
             "line": 38,
@@ -1257,7 +1258,7 @@
           },
           {
             "result": {
-              "duration": 1580000000,
+              "duration": 1564000000,
               "status": "passed"
             },
             "line": 40,
@@ -1269,7 +1270,7 @@
           },
           {
             "result": {
-              "duration": 2138000000,
+              "duration": 2131000000,
               "status": "passed"
             },
             "line": 41,
@@ -1287,7 +1288,7 @@
           },
           {
             "result": {
-              "duration": 611000000,
+              "duration": 626000000,
               "status": "passed"
             },
             "line": 42,
@@ -1305,7 +1306,7 @@
           },
           {
             "result": {
-              "duration": 603000000,
+              "duration": 604000000,
               "status": "passed"
             },
             "line": 43,
@@ -1323,7 +1324,7 @@
           },
           {
             "result": {
-              "duration": 585000000,
+              "duration": 608000000,
               "status": "passed"
             },
             "line": 44,
@@ -1341,7 +1342,7 @@
           },
           {
             "result": {
-              "duration": 68000000,
+              "duration": 71000000,
               "status": "passed"
             },
             "line": 45,
@@ -1353,7 +1354,7 @@
           },
           {
             "result": {
-              "duration": 2104000000,
+              "duration": 2108000000,
               "status": "passed"
             },
             "line": 46,
@@ -1394,7 +1395,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-10-19T13:22:16.875Z",
+        "start_timestamp": "2021-11-02T17:31:58.022Z",
         "line": 13,
         "name": "Check login is successful with valid credentials",
         "description": "",
@@ -1402,7 +1403,7 @@
         "after": [
           {
             "result": {
-              "duration": 4155000000,
+              "duration": 4146000000,
               "status": "passed"
             },
             "match": {
@@ -1415,7 +1416,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1664000000,
+              "duration": 1845000000,
               "status": "passed"
             },
             "line": 5,
@@ -1427,7 +1428,7 @@
           },
           {
             "result": {
-              "duration": 662000000,
+              "duration": 645000000,
               "status": "passed"
             },
             "line": 6,
@@ -1439,7 +1440,7 @@
           },
           {
             "result": {
-              "duration": 158000000,
+              "duration": 212000000,
               "status": "passed"
             },
             "line": 7,
@@ -1461,7 +1462,7 @@
           },
           {
             "result": {
-              "duration": 1559000000,
+              "duration": 1562000000,
               "status": "passed"
             },
             "line": 8,
@@ -1473,7 +1474,7 @@
           },
           {
             "result": {
-              "duration": 1563000000,
+              "duration": 1564000000,
               "status": "passed"
             },
             "line": 9,
@@ -1491,7 +1492,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-19T13:22:26.645Z",
+        "start_timestamp": "2021-11-02T17:32:08.004Z",
         "line": 14,
         "name": "Check login is successful with valid credentials",
         "description": "",
@@ -1499,7 +1500,7 @@
         "after": [
           {
             "result": {
-              "duration": 2909000000,
+              "duration": 2958000000,
               "status": "passed"
             },
             "match": {
@@ -1512,7 +1513,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1618000000,
+              "duration": 2068000000,
               "status": "passed"
             },
             "line": 5,
@@ -1524,7 +1525,7 @@
           },
           {
             "result": {
-              "duration": 772000000,
+              "duration": 667000000,
               "status": "passed"
             },
             "line": 6,
@@ -1536,7 +1537,7 @@
           },
           {
             "result": {
-              "duration": 154000000,
+              "duration": 156000000,
               "status": "passed"
             },
             "line": 7,
@@ -1558,7 +1559,7 @@
           },
           {
             "result": {
-              "duration": 1559000000,
+              "duration": 1560000000,
               "status": "passed"
             },
             "line": 8,
@@ -1570,7 +1571,7 @@
           },
           {
             "result": {
-              "duration": 1563000000,
+              "duration": 1585000000,
               "status": "passed"
             },
             "line": 9,
@@ -1588,7 +1589,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-19T13:22:35.231Z",
+        "start_timestamp": "2021-11-02T17:32:17.004Z",
         "line": 24,
         "name": "Check login is not successful with invalid credentials",
         "description": "",
@@ -1596,7 +1597,7 @@
         "after": [
           {
             "result": {
-              "duration": 3050000000,
+              "duration": 4216000000,
               "status": "passed"
             },
             "match": {
@@ -1609,7 +1610,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1566000000,
+              "duration": 1645000000,
               "status": "passed"
             },
             "line": 17,
@@ -1621,7 +1622,7 @@
           },
           {
             "result": {
-              "duration": 742000000,
+              "duration": 733000000,
               "status": "passed"
             },
             "line": 18,
@@ -1633,7 +1634,7 @@
           },
           {
             "result": {
-              "duration": 158000000,
+              "duration": 182000000,
               "status": "passed"
             },
             "line": 19,
@@ -1655,7 +1656,7 @@
           },
           {
             "result": {
-              "duration": 1554000000,
+              "duration": 1555000000,
               "status": "passed"
             },
             "line": 20,
@@ -1667,7 +1668,7 @@
           },
           {
             "result": {
-              "duration": 1537000000,
+              "duration": 1538000000,
               "status": "passed"
             },
             "line": 21,
@@ -1685,7 +1686,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-19T13:22:43.846Z",
+        "start_timestamp": "2021-11-02T17:32:26.881Z",
         "line": 25,
         "name": "Check login is not successful with invalid credentials",
         "description": "",
@@ -1693,7 +1694,7 @@
         "after": [
           {
             "result": {
-              "duration": 4193000000,
+              "duration": 4213000000,
               "status": "passed"
             },
             "match": {
@@ -1706,7 +1707,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1566000000,
+              "duration": 1542000000,
               "status": "passed"
             },
             "line": 17,
@@ -1718,7 +1719,7 @@
           },
           {
             "result": {
-              "duration": 685000000,
+              "duration": 815000000,
               "status": "passed"
             },
             "line": 18,
@@ -1730,7 +1731,7 @@
           },
           {
             "result": {
-              "duration": 156000000,
+              "duration": 162000000,
               "status": "passed"
             },
             "line": 19,
@@ -1752,7 +1753,7 @@
           },
           {
             "result": {
-              "duration": 1551000000,
+              "duration": 1555000000,
               "status": "passed"
             },
             "line": 20,
@@ -1764,7 +1765,7 @@
           },
           {
             "result": {
-              "duration": 1534000000,
+              "duration": 1538000000,
               "status": "passed"
             },
             "line": 21,
@@ -1802,7 +1803,7 @@
     "line": 6,
     "elements": [
       {
-        "start_timestamp": "2021-10-19T13:22:53.540Z",
+        "start_timestamp": "2021-11-02T17:32:36.712Z",
         "line": 9,
         "name": "Check login is successful with valid credentials",
         "description": "",
@@ -1810,7 +1811,7 @@
         "after": [
           {
             "result": {
-              "duration": 2538000000,
+              "duration": 2526000000,
               "status": "passed"
             },
             "match": {
@@ -1823,7 +1824,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1493000000,
+              "duration": 1686000000,
               "status": "passed"
             },
             "line": 10,
@@ -1835,7 +1836,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 11,
@@ -1858,6 +1858,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 13,
@@ -1881,7 +1882,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-19T13:22:57.581Z",
+        "start_timestamp": "2021-11-02T17:32:40.942Z",
         "line": 16,
         "name": "Check login is unsuccessful with invalid credentials",
         "description": "",
@@ -1889,7 +1890,7 @@
         "after": [
           {
             "result": {
-              "duration": 2497000000,
+              "duration": 2543000000,
               "status": "passed"
             },
             "match": {
@@ -1902,7 +1903,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1724000000,
+              "duration": 1513000000,
               "status": "passed"
             },
             "line": 17,

@@ -1,8 +1,6 @@
 package StepDefinitions;
-import TheInternet.Pages.GoogleHome_PF;
-import TheInternet.Pages.HomePage_PF;
-import TheInternet.Pages.LoginPage_PF;
-import TheInternet.TestBase;
+import Project1.Pages.GoogleHome_PF;
+import Project1.TestBase;
 import io.cucumber.java.en.*;  //Add Given, then replace with * to add all dependencies
 
 public class GoogleSearchSteps_PF extends TestBase {

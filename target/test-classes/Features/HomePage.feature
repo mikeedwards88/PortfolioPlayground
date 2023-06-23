@@ -47,5 +47,5 @@ Feature: To test the functionality of the Form on the Home Page of TestProject D
 
     Examples:
       | username | password | country        | address          | email             | phone      |
-      | Michael  | 12345    | United Kingdom | House 1, Bristol | michael@email.com | 0800123456 |
+      | Michael  | 12345    | Finland        | House 1, Bristol | michael@email.com | 0800123456 |
       | Tester1  | 12345    | Australia      | Flat 20, Bristol | tester1@email.com | 0123456789 |

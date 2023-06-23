@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         "html:target/TestReports/htmlReports"},
         strict = true, //When matching StepDefinition not found, --strict will cause cucumber to exit
         tags = "")  //Multiple:::  tags = "@Scenario1 and/or/not @Scenario2") *Same tag can be used multiple scenarios. Brackets can be used
-
+//ALL SCENARIOS
 // CI/CD: Jenkins Integration, the JUnit Test Results can be displayed on the Jenkins Dashboard
 
 

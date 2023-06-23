@@ -9,7 +9,7 @@ Feature: To test Google search functionality
     Then user is navigated to search <results>
 
     Examples:
-      | text | results |
-      | Selenium | https://www.selenium.dev  |
-      | Youtube  | https://www.youtube.com  |
+      | text             | results                        |
+      | Selenium         | https://www.selenium.dev       |
+      | Youtube          | https://www.youtube.com        |
       | TestProject Demo | https://example.testproject.io |

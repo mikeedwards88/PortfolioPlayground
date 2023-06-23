@@ -1,5 +1,5 @@
 package StepDefinitions;
-import TheInternet.TestBase;
+import Project1.TestBase;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

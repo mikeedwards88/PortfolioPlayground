@@ -1,9 +1,7 @@
 package StepDefinitions;
-import TheInternet.Pages.HomePage_PF;
-import TheInternet.Pages.LoginPage_PF;
-import TheInternet.TestBase;
-import TheInternet.Tools;
-import io.cucumber.java.After;
+import Project1.Pages.HomePage_PF;
+import Project1.Pages.LoginPage_PF;
+import Project1.TestBase;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -43,7 +41,7 @@ public class LoginDemoSteps_PF extends TestBase {
 
     @And("clicks on the login button")
     public void clicksOnTheLoginButton() {
-        Tools.addDelay(1500);
+        TestBase.addDelay(1500);
         login.clickLogin();
     }
 
@@ -52,12 +50,12 @@ public class LoginDemoSteps_PF extends TestBase {
         home = new HomePage_PF();
         home.checkLogoutIsDisplayed();
         home.homePageCheck();
-        Tools.addDelay(1500);
+        TestBase.addDelay(1500);
     }
 
     @Then("user is given an invalid password message")
     public void userIsGivenAnInvalidPasswordMessage() {
         login.invalidPasswordMessage();
-        Tools.addDelay(1500);
+        TestBase.addDelay(1500);
     }
 }
